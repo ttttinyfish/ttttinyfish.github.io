@@ -1,4 +1,4 @@
-# jekyll-theme-persephone
+# Let's listen to what Joe say
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-persephone.svg)](https://rubygems.org/gems/jekyll-theme-persephone)
 
