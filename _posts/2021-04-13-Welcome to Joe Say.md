@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Document - Writing Posts
+title: 欢迎来到Joe Say
 mathjax: true
 ---
 
