@@ -26,7 +26,7 @@ titles:
 key: page-about
 ---
 
-### 欢迎来到Joe Say!Let's listen to what Joe say!
+### 欢迎来到Joe Say! Let's listen to what Joe say!
 
 
 ## 在这里你会看到
@@ -35,7 +35,7 @@ key: page-about
 - 经济视角
 - 科技杂谈
 - 哲学说理
-- 个人感悟
+- 个人感悟\
 ...
 
 ## 欢迎围观！
