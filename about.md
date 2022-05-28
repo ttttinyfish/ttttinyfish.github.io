@@ -1,6 +1,6 @@
 ---
 layout: article
-titles: Welcome to Joe Say!
+titles: 
   # @start locale config
   en      : &EN       About
   en-GB   : *EN
@@ -25,7 +25,8 @@ titles: Welcome to Joe Say!
   # @end locale config
 key: page-about
 ---
-## Joe Say
+
+### Joe Say
 
 
 ## 在这里你会看到
