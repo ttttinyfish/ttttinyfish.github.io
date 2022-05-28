@@ -26,7 +26,7 @@ titles:
 key: page-about
 ---
 
-### 欢迎来到Joe Say! Let's listen to what Joe say!
+欢迎来到Joe Say! Let's listen to what Joe say!
 
 
 ## 在这里你会看到
