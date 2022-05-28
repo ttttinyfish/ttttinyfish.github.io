@@ -26,9 +26,8 @@ titles: Welcome to Joe Say!
 key: page-about
 ---
 
-![Image](/assets/images/微信图片_20220521210402.jpg){:.rounded}
 
-## Welcome to Joe Say!
+# Welcome to Joe Say!
 
 ## 在这里你会看到
 
