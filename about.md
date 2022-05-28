@@ -1,6 +1,6 @@
 ---
 layout: article
-titles: Welcome to Joe Say!
+titles:
   # @start locale config
   en      : &EN       About
   en-GB   : *EN
@@ -23,8 +23,7 @@ titles: Welcome to Joe Say!
   fr-FR   : *FR
   fr-LU   : *FR
   # @end locale config  
-sharing: true
-key: page-about-2022-05-29
+key: page-about
 ---
 
 <!-- ---我是一条分割线--- -->
