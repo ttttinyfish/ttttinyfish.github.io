@@ -131,7 +131,7 @@ comments:
     owner       : tpjz # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
        - tpjz # your GitHub Id
-    proxy: https://crimson-bush-7f27.shijoe19951992.workers.dev/?https://github.com/login/oauth/access_token
+    # proxy: https://crimson-bush-7f27.shijoe19951992.workers.dev/?https://github.com/login/oauth/access_token
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
