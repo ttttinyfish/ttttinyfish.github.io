@@ -1,3 +1,24 @@
 <!-- start custom comments snippet -->
+{% if site.gitalk.enable %}
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+    clientID: 915d6f66cfbcb9e31bd0 # GitHub Application Client ID
+    clientSecret: d03274d712a11099f46fe19d9a406d29351c3ec4 # GitHub Application Client Secret
+    repository: blog_comment # GitHub repo
+    owner: tpjz # GitHub repo owner
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+       - tpjz # your GitHub Id
+    proxy: https://crimson-bush-7f27.shijoe19951992.workers.dev/?https://github.com/login/oauth/access_token
+    
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
 <!-- end custom comments snippet -->
