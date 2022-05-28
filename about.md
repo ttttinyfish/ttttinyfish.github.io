@@ -26,7 +26,7 @@ titles: Welcome to Joe Say!
 key: page-about
 ---
 
-![Image](https://github.com/tpjz/image/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220521210402.jpg)
+![Image](/assets/微信图片_20220521210402.jpg)
 
 ## Welcome to Joe Say!
 
