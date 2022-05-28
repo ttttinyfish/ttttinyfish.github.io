@@ -130,7 +130,7 @@ comments:
     repository  : blog_comment # GitHub repo
     owner       : tpjz # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-       - tpjz #your GitHub Id
+       - ['tpjz'] # your GitHub Id
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
