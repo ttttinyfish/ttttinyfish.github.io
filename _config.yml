@@ -19,7 +19,7 @@
 # theme: jekyll-text-theme
 text_skin: ocean # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : joesaid.tk # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : tpjz.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Joe Say
 description: > # this means to ignore newlines until "Language & timezone"
@@ -35,7 +35,7 @@ timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_
 author:
   type      : # "person" (default), "organization"
   name      : Joe
-  url       : joesaid.tk
+  url       : tpjz.github.io
   avatar    : # path or url of avatar image (square)
   bio       : Say something you want.
   email     : shijoe@protonmail.com # 
