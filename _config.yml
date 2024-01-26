@@ -34,13 +34,13 @@ timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Joe
-  url       : joesaid.tk
+  name      : "Joe"
+  url       : "joesaid.tk"
   avatar    : # path or url of avatar image (square)
   bio       : Say something you want.
-  email     : shijoe@protonmail.com # 
+  email     : "shijoe@protonmail.com" # 
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  twitter   : "ttttinyfish" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   telegram  : George056798 # "user_name" the last part of your profile url, e.g. https://t.me/user_name
@@ -48,13 +48,13 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : tpjz # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : "ttttinyfish" # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: tpjz/tpjz.github.io
+repository: ttttinyfish/ttttinyfish.github.io
 repository_tree: master
 
 
@@ -129,9 +129,9 @@ comments:
     clientID    : 915d6f66cfbcb9e31bd0 # GitHub Application Client ID
     clientSecret: d03274d712a11099f46fe19d9a406d29351c3ec4 # GitHub Application Client Secret
     repository  : blog_comment # GitHub repo
-    owner       : tpjz # GitHub repo owner
+    owner       : ttttinyfish # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-       - tpjz # your GitHub Id
+       - ttttinyfish # your GitHub Id
     proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
 
   ## Valine
