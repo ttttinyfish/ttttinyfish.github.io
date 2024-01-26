@@ -129,9 +129,9 @@ comments:
     clientID    : 915d6f66cfbcb9e31bd0 # GitHub Application Client ID
     clientSecret: d03274d712a11099f46fe19d9a406d29351c3ec4 # GitHub Application Client Secret
     repository  : blog_comment # GitHub repo
-    owner       : tpjz # GitHub repo owner
+    owner       : ttttinyfish # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-       - tpjz # your GitHub Id
+       - ttttinyfish # your GitHub Id
     proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
 
   ## Valine
