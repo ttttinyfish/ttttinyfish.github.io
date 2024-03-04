@@ -28,7 +28,7 @@ key: page-about
 
 <!-- ---我是一条分割线--- -->
 
-#### Welcome to Joe Said!
+#### Welcome to Ttttinyfish!
     
    承蒙时光不弃，你终于发现了我的小窝。
     
@@ -47,6 +47,8 @@ key: page-about
   - 哲学说理
 
   - 个人感悟
+  
+  - 前端学习 
   ...
 
   更多的是我的碎碎念，我的一些奇怪的想法，就更在这片自留地里吧。
