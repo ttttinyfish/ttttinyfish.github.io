@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 如何优雅地在windows中使用singbox
-tags: 奇迹淫巧
+tags: 奇技淫巧
 key: 2024-03-16-key
 ---
 
