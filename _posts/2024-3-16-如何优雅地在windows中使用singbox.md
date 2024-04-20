@@ -108,6 +108,9 @@ windows平台至github[下载页](https://github.com/SagerNet/sing-box/releases)
 有时候wifi图标会显示为有线连接，但并不会影响网络连接
 参考了一些方法，解决方法是[让“www.msftconnecttest.com”这个域名走公共DNS解析](https://github.com/SagerNet/sing-box/issues/283#issuecomment-1356181959)，需要在配置文件中添加该域名。
 
+2024-4-20更新：
+以上问题已经完全不会出现，可安心食用
+
 ### 参考文章：
 
 **[如何在 Windows 中优雅的使用 sing-box](https://www.hauhau.cn/blog/proxy/sing-box-on-windows)**
