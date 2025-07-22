@@ -133,9 +133,9 @@ comments:
     clientID    : 143666b578a416f82175
     clientSecret: 1d1c0604a1a4bff9b59ab7f56724dc0e8b837775
     repository  : gitalk-demo
-    owner       : kitian616
+    owner       : ttttinyfish
     admin:
-      - kitian616
+      - ttttinyfish
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
