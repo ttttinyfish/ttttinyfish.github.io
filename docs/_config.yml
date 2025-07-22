@@ -130,8 +130,8 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : 143666b578a416f82175
-    clientSecret: 1d1c0604a1a4bff9b59ab7f56724dc0e8b837775
+    clientID    : 915d6f66cfbcb9e31bd0
+    clientSecret: 32a7891db4bae65ea28a9fa8df8d7d52ae8dbbb9
     repository  : gitalk-demo
     owner       : ttttinyfish
     admin:
