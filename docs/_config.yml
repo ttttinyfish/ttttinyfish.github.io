@@ -132,7 +132,7 @@ comments:
   gitalk:
     clientID    : 915d6f66cfbcb9e31bd0
     clientSecret: 32a7891db4bae65ea28a9fa8df8d7d52ae8dbbb9
-    repository  : gitalk-demo
+    repository  : blog_comment
     owner       : ttttinyfish
     admin:
       - ttttinyfish
