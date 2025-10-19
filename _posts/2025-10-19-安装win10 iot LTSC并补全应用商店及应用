@@ -1,0 +1,62 @@
+---
+layout: article
+title: 安装win10 iot LTSC并补全应用商店及应用
+tags: 奇技淫巧
+key: 2025-10-19-key
+---
+因为win10家庭版及专业版已于2025年10月14日停止支持，而win10 LTSC版支持到2027年，win 10 iot LTSC版支持至2032年。而在实际使用中LTSC与IOT LTSC版几乎一模一样，只是支持的时间不一样。
+<!--more-->
+
+> **截至 2025 年 5 月 2 日的最新状态**
+> 
+> [Windows 10 企业版 LTSC 2021](https://learn.microsoft.com/zh-cn/lifecycle/products/windows-10-enterprise-ltsc-2021) 和 [Windows 10 IoT 企业版 LTSC 2021](https://learn.microsoft.com/zh-cn/lifecycle/products/windows-10-iot-enterprise-ltsc-2021) 的主流支持将持续到 2027 年 1 月 12 日。
+> 
+> [Windows 10 企业版 LTSC 2019](https://learn.microsoft.com/zh-cn/lifecycle/products/windows-10-enterprise-ltsc-2019)、[Windows 10 IoT 企业版 LTSC 2019](https://learn.microsoft.com/zh-cn/lifecycle/products/windows-10-iot-enterprise-ltsc-2019) 和 [Windows Server 2019](https://learn.microsoft.com/zh-cn/lifecycle/products/windows-server-2019) 的主流支持将持续到 2029 年 1 月 9 日。
+> 
+> | 正在列出                        | 开始日期       | 主流结束日期  | 延长结束日期  |
+| --------------------------------- | ---------------- | --------------- | --------------- |
+| Windows 10 IoT 企业版 LTSC 2021 | 2021年11月16日 | 2027年1月12日 | 2032年1月13日 |
+> 
+> 
+
+![💡](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
+
+来源：[微软官网](https://learn.microsoft.com/zh-cn/lifecycle/products/windows-10-iot-enterprise-ltsc-2021)
+
+## 安装win10 LTSC企业版
+
+### 下载镜像
+
+去镜像站[ITELLYOU](https://next.itellyou.cn/)或者[hellowindows](https://hellowindows.cn/)下载** Windows 10 Enterprise LTSC 2021 (x64) - DVD (Chinese-Simplified)** 这个版本，并使用烧录工具例如rufus或者直接使用ventory等工具烧录到U盘中，然后安装即可
+
+安装过程略过，自行搜索教程
+
+## 转为IOT版并激活
+
+**转为IOT版**
+
+通过更改激活密钥使用**PM6N-7J2WJ-P88HH-P3YRH-YY74H**可将LTSC版转为IOT版，但是请注意，这并不是激活密钥，你仍需要使用KMS工具或其它工具激活
+
+![💡](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
+
+截止到2025年10月19日此密钥有效，如果失效请另寻其它密钥
+
+**激活**
+
+可以使用这个github项目[Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)激活
+
+你不需要下载任何软件，只需要打开Powershell输入这一行命令
+
+**irm** https:**/**/massgrave**.**dev/get **|** **iex**
+
+​
+
+然后按提示操作即可
+
+## 补全应用商店
+
+由于LTSC版没有预装win10应用商店，所以有一些UWP应用不支持，因此使用起来多有不便，例如HEIF照片支持就需要相关的组件支持，因此这一步可以选装
+
+用管理员打开Powershell输入命令行“wsreset -i”等几秒钟，应用商店会出现。但是不知道为什么我的电脑之后又不可以用了，也装不了软件。后来参考这个项目[LTSC-Add-MicrosoftStore](https://github.com/IceLoveYer/LTSC-Add-MicrosoftStore)使用CMD脚本补全成功。其中提供的组件有过时的，可以依据其提供的方法来解决。
+
+至此，这个简单的教程就结束啦\~
